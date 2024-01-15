@@ -1,10 +1,8 @@
-# 🚀 React Native Boilerplate - September 2020
+# TradingApp Beginner version built on React-Native
 
 [![React Native](https://img.shields.io/badge/React%20Native-v0.63.2-green.svg)](https://facebook.github.io/react-native/)
 [![React Navigation V5](https://img.shields.io/badge/React%20Navigation-v5.9-blue.svg)](https://reactnavigation.org/)
 
-React Native Boilerplate is a starting point for React Native application. This project is configured with redux, redux saga
-and redux persist. Uses latest version of react-navigation (v5.9)
 
 <p float="left">
 <a href='http://redux.js.org'><img src='https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67' height='60' alt='Redux Logo' aria-label='redux.js.org' /></a>
@@ -17,15 +15,9 @@ and redux persist. Uses latest version of react-navigation (v5.9)
 
 ## Scalability Factor
 
-This Type based Architecture scales smoothly for small - medium apps. If you guys are building a very large application I would suggest using the following feature based architecture which will be more developer friendly with ease of scaling.
+This Type based Architecture scales smoothly for small - medium apps. 
 
-[React-Native-Feature-BoilerPlate](https://github.com/victorkvarghese/react-native-feature-boilerplate)
 
-## Projects using this BoilerPlate
-
-- [MediBuddy](https://github.com/victorkvarghese/MediBuddy)
-- [react-native-messenger](https://github.com/victorkvarghese/react-native-messenger)
-- [rn-coffee](https://github.com/victorkvarghese/rn-coffee)
 
 ## Features
 - [Typescript](https://www.typescriptlang.org/) support.
@@ -52,15 +44,13 @@ This Type based Architecture scales smoothly for small - medium apps. If you guy
 
 ## Getting Started
 
-1. Clone this repo, `git clone https://github.com/victorkvarghese/react-native-boilerplate.git <your project name>`
+1. Clone this repo
 2. Go to project's root directory, `cd <your project name>`
-3. Remove `.git` folder, `rm -rf .git`
-4. Use [React Native Rename](https://github.com/junedomingo/react-native-rename) to update project name `$ npx react-native-rename <newName>`
-5. Run `yarn` to install dependencies
+3. Run `yarn` to install dependencies
 
-6. Start the packager with `yarn start`
-7. Connect a mobile device to your development machine
-8. Run the test application:
+4. Start the packager with `yarn start`
+5. Connect a mobile device to your development machine
+6. Run the test application:
 
 - On Android:
   - Run `react-native run-android` or Use Android Studio (Recommended)
@@ -68,7 +58,7 @@ This Type based Architecture scales smoothly for small - medium apps. If you guy
   - Open `ios/YourReactProject.xcworkspace` in Xcode
   - Hit `Run` after selecting the desired device
 
-9. Enjoy!!!
+7. Enjoy!!!
 
 ## Contributing
 
